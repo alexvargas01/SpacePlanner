@@ -70,7 +70,7 @@ input[type="radio"]:checked + label:after {
   opacity: 1;
 }
 
-.seat-map {
+#seat-map {
   width: 50%;
   margin: 0 auto;
 }

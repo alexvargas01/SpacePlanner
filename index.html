@@ -15,35 +15,44 @@
     <header>
       <h1 id="title">SPACE PLANNER</h1>
     </header>
-    <!-- INFORMATION FORM -->
     <main>
+      <!-- INFORMATION FORM -->
       <form class="details-form">
         <div>
-          <label for="numberOfSeats">Number of seats: </label>
+          <label for="numberOfSeats">Número de asientos: </label>
           <input type="number" id="numberOfSeats" name="numberOfSeats" />
         </div>
         <div>
-          <label for="numberOfSeats">Seat arrangement: </label>
-          <input type="number" id="numberOfSeats" name="numberOfSeats" />
+          <label for="columnas" class="arrangement">Columnas</label>
+          <input type="number" id="columnas" name="columnas" />
+
+          <label for="filas" class="arrangement">Filas</label>
+          <input type="number" id="filas" name="filas" />
         </div>
         <div>
-          <label for="percentage">Capacity Percentage: </label>
+          <label for="percentage">Porcentaje de capacidad:</label>
           <input type="number" id="percentage" name="percentage" />
         </div>
-        <hr>
-          <div class="Semaforo">
-            <input type="radio" value="none" id="red-l" name="red-l" checked/>
-            <label for="red-l" class="radio">Red</label>
-            <input type="radio" value="none" id="orange-l" name="orange-l" />
-            <label for="orange-l" class="radio">Orange</label>
-            <input type="radio" value="none" id="yellow-l" name="yellow-l" />
-            <label for="yellow-l" class="radio">Yellow</label>
-            <input type="radio" value="none" id="green-l" name="green-l" />
-            <label for="green-l" class="radio">Green</label>
-          </div>
-        <hr>
+        <div class="Semaforo">
+          <p style="font-weight: bold">Color de Semáforo:</p>
+
+          <input type="radio" value="red" id="luz-roja" name="luz" checked />
+          <label for="luz-roja" class="radio">Rojo</label>
+
+          <input type="radio" value="orange" id="luz-naranja" name="luz" />
+          <label for="luz-naranja" class="radio">Naranja</label>
+
+          <input type="radio" value="yellow" id="luz-amarilla" name="luz" />
+          <label for="luz-amarilla" class="radio">Amarillo</label>
+
+          <input type="radio" value="green" id="luz-verde" name="luz" />
+          <label for="luz-verde" class="radio">Green</label>
+        </div>
+        <button class="button-primary">Calculate</button>
       </form>
       <!-- SEAT MAP -->
+      <div class="seat-map" id="seat-map"></div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>

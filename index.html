@@ -4,35 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Space Planner</title>
   </head>
   <body>
-    <h1>SPACE PLANNER</h1>
+    <header>
+      <h1 id="title">SPACE PLANNER</h1>
+    </header>
     <!-- INFORMATION FORM -->
-    <form>
-      <div>
-        <label>Number of seats: </label>
-        <input />
-      </div>
-
-      <div>
-        <label>Number of seats by row and column</label>
-        <input /> x <input />
-      </div>
-
-      <div>
-        <input id="radio1" type="radio" value="red" checked="checked" />
-        <label for="radio1">
-          Verde
-        </label>
-      </div>
-
-      <div>
-        <label>Number of seats: </label>
-        <input /> %
-      </div>
-    </form>
-
-    <!-- SEAT MAP -->
+    <main>
+      <form class="details-form">
+        <div>
+          <label for="numberOfSeats">Number of seats: </label>
+          <input type="number" id="numberOfSeats" name="numberOfSeats" />
+        </div>
+        <div>
+          <label for="numberOfSeats">Seat arrangement: </label>
+          <input type="number" id="numberOfSeats" name="numberOfSeats" />
+        </div>
+      </form>
+      <!-- SEAT MAP -->
+    </main>
   </body>
 </html>

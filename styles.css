@@ -27,46 +27,6 @@ label.arrangement {
   text-align: right;
 }
 
-label.radio {
-  position: relative;
-  display: inline-block;
-  padding-top: 4px;
-  margin-right: 20px;
-  text-indent: 30px;
-  overflow: visible;
-  cursor: pointer;
-  width: max-content;
-}
-
-label.radio:before {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #42a5f5;
-}
-
-label.radio:after {
-  content: "";
-  position: absolute;
-  width: 9px;
-  height: 4px;
-  top: 8px;
-  left: 4px;
-  border: 3px solid #fff;
-  border-top: none;
-  border-right: none;
-  transform: rotate(-45deg);
-  opacity: 0;
-}
-
-input[type="radio"]:checked + label:after {
-  opacity: 1;
-}
-
 #seat-map {
   width: 50%;
   margin: 0 auto;

@@ -44,17 +44,25 @@ body {
 }
 
 #title {
-  background-color: #484848;
+  
   text-align: center;
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+  border-style: ridge;
+  border-color: #42a5f5;
+  background-color: #42a5f5;
+  color: black;
 }
 
 label {
   display: inline-block;
   width: 200px;
   text-align: right;
+  border-style: ridge;
+  border-color: #42a5f5;
+  background-color: #42a5f5;
+  color: black;
 }
 ​ #numberOfSeats {
   vertical-align: middle;
@@ -73,11 +81,15 @@ button.button-primary {
   width: 150px;
   height: 40px;
   display: grid;
-  border: 1px solid;
   outline: none;
   margin-top: 50px;
   margin-bottom: 50px;
+  border-style: ridge;
+  border-color: #42a5f5;
+  background-color: #42a5f5;
+  color: black;
 }
+
 
 .semaforo {
   width: max-content;

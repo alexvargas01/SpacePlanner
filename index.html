@@ -17,7 +17,7 @@
     </header>
     <main>
       <!-- INFORMATION FORM -->
-      <form class="details-form">
+      <form class="details-form" id="details-form">
         <!-- Number of seats -->
         <div>
           <label for="numberOfSeats">Número de asientos: </label>
@@ -36,19 +36,13 @@
           <input type="number" id="percentage" name="percentage" />
         </div>
         <div class="Semaforo">
-          <p style="font-weight: bold">Color de Semáforo:</p>
-
-          <label for="luz-roja" class="radio">Rojo</label>
-          <input type="radio" value="red" id="luz-roja" name="luz" checked />
-
-          <label for="luz-naranja" class="radio">Naranja</label>
-          <input type="radio" value="orange" id="luz-naranja" name="luz" />
-
-          <label for="luz-amarilla" class="radio">Amarillo</label>
-          <input type="radio" value="yellow" id="luz-amarilla" name="luz" />
-
-          <label for="luz-verde" class="radio">Green</label>
-          <input type="radio" value="green" id="luz-verde" name="luz" />
+          <label for="trafficLight">Color de semáforo: </label>
+          <select name="trafficLights" id="trafficLights" form="details-form">
+            <option value="red">Rojo</option>
+            <option value="orange">Naranja</option>
+            <option value="yellow">Amarillo</option>
+            <option value="green">Verde</option>
+          </select>
         </div>
         <button class="button-primary">Calculate</button>
       </form>

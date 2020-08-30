@@ -12,9 +12,12 @@ form.addEventListener("submit", event => {
   const percentage = formData.get("percentage");
   const numberOfSeats = formData.get("numberOfSeats");
 
+  //Reset the seat map container
+  document.getElementById("seat-map").innerHTML = "";
+
+  //Set the size of the seat map container
   var containerWidth = 20 * columns;
   var containerHeight = 20 * rows;
-
   document.getElementById("seat-map").style.width = `${containerWidth}px`;
   document.getElementById("seat-map").style.height = `${containerHeight}px`;
 

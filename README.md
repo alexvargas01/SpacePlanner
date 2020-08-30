@@ -4,17 +4,17 @@ App developed during HACKMTY 2020
 
 ## Front End
 
-- [] Número de asientos
-- [] Dimensiones de la sala (asientos x asientos)
-- [] Color de semáforo
-- [] Porcentaje de capacidad
-- [] Display de area de asientos
-- [] Display de los asientos en cuadricula
+- [x] Número de asientos
+- [x] Dimensiones de la sala (asientos x asientos)
+- [x] Color de semáforo
+- [x] Porcentaje de capacidad
+- [x] Display de area de asientos
+- [x] Display de los asientos en cuadricula
 - [] Botón para generar display
 
 ## Funciones
 
-- [] Calcular los asientos disponibles dependiendo de la capacidad
+- [x] Calcular los asientos disponibles dependiendo de la capacidad
 - [] Iluminar los asientos disponibles
 - [] Mandar información a pantalla de display
 - [] Cambiar a pantalla de display al presionar el botón
